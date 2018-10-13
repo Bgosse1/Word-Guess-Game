@@ -17,8 +17,10 @@
     <div class="container">
         <div class="row ">
             <div class="col-lg-4">
-                <p>Wins:<span></span></p>
-                <p>Number of Guesses Left:<span></span></p>
+                <p>Wins: <span id="wins"></span></p>
+                <p>Number of Guesses Left: <span id="guessesLeft-text"></span></p>
+                <iframe id="stream" src="" height="300" width="300" frameborder="0" scrolling="no" allowfullscreen="true">
+                </iframe>
             </div>
             <div class="col-lg-4">
                 <img src="./assets/images/Combo_Purple_RGB.png" class="img-fluid" alt="Responsive image">
@@ -27,7 +29,16 @@
         <div class="row justify-content-center">
             <div class="col-lg-4">
                 <p class="mt-5">
-                    Can you Guess the Twitch Streamers Name?
+                    Can you Guess the Twitch Streamer?
+                </p>
+                <p>
+                    Press Any Key to Get Started!
+                </p>
+                <h1 id="word">
+
+                </h1>
+                <p>
+                    <p>Letters Already Guessed: <span id="gueesesSoFar-text"></span></p>
                 </p>
             </div>
         </div>
